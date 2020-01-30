@@ -22,7 +22,79 @@
         </header>
         ); } ReactDOM.render(
         <App className='my-class'>
-            <h1>Current Page Title!</h1>
+
+            <header className='banner'>
+                <h1>Sally Student, One with the Code</h1>
+                <h2>Full Stack Web Developer</h2>
+            </header>
+            <main className='main'>
+                <section className='Education'>
+                    <h2>
+                        Education
+                    </h2>
+                    <ul>
+                        <li>Graduated from Bloc.io</li>
+                        <li>Graduated from EMC Business Int</li>
+                    </ul>
+                </section>
+                <section className='Employment'>
+                    <h2>
+                        Employment History
+                    </h2>
+                    <ul>
+                        <li>
+                            <h3>
+                                Microsoft
+                            </h3>
+                        </li>
+                        <li>
+                            <h4>
+                                Job Title: Retail Sales Trainer
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                Dates: November 2013 - March 2016
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                Description: Trained CSR at Best Buy locations to perform live demos, events, how to sell the features of the products, and increase microsoft products sales store wide
+                            </h4>
+                        </li>
+                        <li>
+                            <h3>
+                                Bungie
+                            </h3>
+                        </li>
+                        <li>
+                            <h4>
+                                Job Title: Game Tester
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                Dates: april 2011 - November 2013
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                Description: Test, troubleshoot and analyze game projects
+                            </h4>
+                        </li>
+                    </ul>
+                </section>
+                <section className='contactInfo'>
+                    <h2>Contact Me</h2>
+                    <address className='addressInfo'>
+            <p>Sally A. Student</p>
+            <p>smeighn@gmail.com</p>
+            <p>646-555-5551</p>
+            <p><img src="broadcity.jpg" alt="G.O.A.T">
+            </p>    </address>
+                </section>
+            </main>
+
         </App>, document.querySelector('#application-root') );
     </script>
 </body>
