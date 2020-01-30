@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="Sally Student's Resume" content="Passionate, intelligent, Aspiring Full Stack Developer.">
+    <link rel="stylesheet" type="text/css" href="main.css" />
     <title>React Resume App</title>
     <script src="https://unpkg.com/react@16/umd/react.development.js">
     </script>
@@ -10,7 +12,6 @@
     </script>
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js">
     </script>
-
 </head>
 
 <body>
@@ -23,14 +24,16 @@
         <header>
             {props.children}
         </header>
-        ); this (
+        ); return (
         <a href={profilePic}>
     {profilePic}
     </a> ); } ReactDOM.render(
         <App className='my-class'>
 
             <header>
-                <h1>Sally Student, One with the Code</h1>
+                <div>
+                    <h1><span className='studentName'>Sally Student, One with the Code</span></h1>
+                </div>
                 <h2>Full Stack Web Developer</h2>
             </header>
 
@@ -99,8 +102,6 @@
                       <p>646-555-5551</p>
                       <p><img src="broadcity.jpg" alt="G.O.A.T"></img></p>
                     </address>
-                    <img src="http://ia.media-imdb.com/images/M/MV5BMTY5NzE3NzU3MF5BMl5BanBnXkFtZTgwMjg0NTQ5MDE@._V1_UX214_CR0,0,214,317_AL_.jpg">
-                    </img>
 
                 </section>
             </main>
