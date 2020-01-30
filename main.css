@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(146, 78, 211);
+}
+
+.main {}
+
+.education {}
+
+.employment {}
+
+.contactInfo {}
+
+.addressInfo {}
+
+.studentName {}
+
+h1 {
+    color: rgba(0, 66, 128, 0.705);
+    font-family: times 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: rgba(0, 174, 255, 0.616);
+}
+
+h3 {
+    color: blue;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+@media only screen and (min-width:320px) and (max-width:640px) {
+    body {
+        background-color: rgb(186, 115, 196);
+    }
+    .main {}
+    .education {}
+    .employment {}
+    .contactInfo {}
+    .addressInfo {}
+    .studentName {}
+    h1 {
+        color: rgba(0, 66, 128, 0.705);
+        font-family: times 'Times New Roman', Times, serif;
+    }
+    h2 {
+        color: rgba(0, 174, 255, 0.616);
+    }
+    h3 {
+        color: blue;
+    }
+    img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width:641px) and (max-width:900px) {
+    body {
+        background-color: rgb(168, 23, 125);
+    }
+    .main {}
+    .education {}
+    .employment {}
+    .contactInfo {}
+    .addressInfo {}
+    .studentName {}
+    h1 {
+        color: rgba(0, 66, 128, 0.705);
+        font-family: times 'Times New Roman', Times, serif;
+    }
+    h2 {
+        color: rgba(0, 174, 255, 0.616);
+    }
+    h3 {
+        color: blue;
+    }
+    img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media only screen and (min-width:901px) and (max-width:1200px) {
+    body {
+        background-color: rgb(23, 115, 168);
+    }
+    .main {}
+    .education {}
+    .employment {}
+    .contactInfo {}
+    .addressInfo {}
+    .studentName {}
+    h1 {
+        color: rgba(0, 66, 128, 0.705);
+        font-family: times 'Times New Roman', Times, serif;
+    }
+    h2 {
+        color: rgba(0, 174, 255, 0.616);
+    }
+    h3 {
+        color: blue;
+    }
+    img {
+        width: 200px;
+        height: 200px;
+    }
+}
